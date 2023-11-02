@@ -59,7 +59,7 @@ def get_chunk_text(text):
 
 def get_vector_store(text_chunks):
     
-    embeddings = OpenAIEmbeddings(openai_api_key='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')
+    embeddings = OpenAIEmbeddings(openai_api_key='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')
 
     vectorstore = FAISS.from_texts(texts = text_chunks, embedding = embeddings)
     
@@ -67,7 +67,7 @@ def get_vector_store(text_chunks):
 
 def get_conversation_chain(vector_store):
 
-    llm = ChatOpenAI(openai_api_key='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')
+    llm = ChatOpenAI(openai_api_key='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')
 
     memory = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
 
