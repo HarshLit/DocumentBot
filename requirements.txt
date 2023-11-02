@@ -1,4 +1,3 @@
-dotenv
 python-dotenv
 langchain
 PyPDF2
