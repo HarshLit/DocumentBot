@@ -5,3 +5,5 @@ faiss-cpu
 python-docx
 openai
 tiktoken
+requests==2.26.0
+streamlit
