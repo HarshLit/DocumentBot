@@ -1,0 +1,468 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://10.128.0.3:8501
+  External URL: http://34.30.97.220:8501
+
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://10.128.0.3:8501
+  External URL: http://34.30.97.220:8501
+
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://10.128.0.3:8501
+  External URL: http://34.30.97.220:8501
+
+2023-11-25 10:13:28.094 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 96, in <module>
+    thread = client.beta.threads.create()
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/threads.py", line 80, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-8udlm***************************************JerZ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-11-25 10:14:20.904 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 234, in <module>
+    goals_click_button()
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 187, in goals_click_button
+    client.beta.threads.messages.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/messages/messages.py", line 82, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-8udlm***************************************JerZ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-11-25 10:14:44.782 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 96, in <module>
+    thread = client.beta.threads.create()
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/threads.py", line 80, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-8udlm***************************************JerZ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-11-25 10:16:53.832 Session with id 02234b23-e219-4d4c-a3b1-d6bc4d4e85f6 is already connected! Connecting to a new session.
+2023-11-25 10:17:48.596 Session with id 0d01dd9c-04f7-4e3b-9465-f02d6c646a28 is already connected! Connecting to a new session.
+2023-11-25 10:19:48.031 Session with id 3e8e37c1-f9e2-4f7e-ad1d-8202504e16bc is already connected! Connecting to a new session.
+2023-11-27 10:08:03.288 Session with id 804fb141-7e09-4391-aac9-8eb0938006aa is already connected! Connecting to a new session.
+2023-11-27 10:10:38.928 Session with id 48967d48-5165-46d8-8296-071fb1f3b6ae is already connected! Connecting to a new session.
+2023-11-27 10:17:33.452 Session with id 333e7370-2702-46b5-9668-933ee49af076 is already connected! Connecting to a new session.
+2023-11-29 06:43:08.294 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 98, in <module>
+    thread = client.beta.threads.create()
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/threads.py", line 80, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-8udlm***************************************JerZ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-11-29 06:43:16.722 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 245, in <module>
+    goals_click_button()
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 199, in goals_click_button
+    client.beta.threads.messages.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/messages/messages.py", line 82, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-8udlm***************************************JerZ. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-11-29 06:56:06.714 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 530, in _run_script
+    self._session_state.on_script_will_rerun(rerun_data.widget_states)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/safe_session_state.py", line 61, in on_script_will_rerun
+    self._state.on_script_will_rerun(latest_widget_states)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 500, in on_script_will_rerun
+    self._call_callbacks()
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 513, in _call_callbacks
+    self._new_widget_state.call_callback(wid)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 260, in call_callback
+    callback(*args, **kwargs)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 199, in goals_click_button
+    client.beta.threads.messages.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/messages/messages.py", line 82, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Can't add messages to thread_4jzeb7TCEouq6I524U40uekV while a run run_XDjUsfVaAwlue0BSgVyeJjaa is active.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2023-11-29 06:56:48.288 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 530, in _run_script
+    self._session_state.on_script_will_rerun(rerun_data.widget_states)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/safe_session_state.py", line 61, in on_script_will_rerun
+    self._state.on_script_will_rerun(latest_widget_states)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 500, in on_script_will_rerun
+    self._call_callbacks()
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 513, in _call_callbacks
+    self._new_widget_state.call_callback(wid)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 260, in call_callback
+    callback(*args, **kwargs)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 199, in goals_click_button
+    client.beta.threads.messages.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/messages/messages.py", line 82, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Can't add messages to thread_azsXQ33sj2Ot5lY3vJdU8iaV while a run run_4GEwkEYHWa5f28gls1JqiBLM is active.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2023-11-29 09:22:14.019 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 530, in _run_script
+    self._session_state.on_script_will_rerun(rerun_data.widget_states)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/safe_session_state.py", line 61, in on_script_will_rerun
+    self._state.on_script_will_rerun(latest_widget_states)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 500, in on_script_will_rerun
+    self._call_callbacks()
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 513, in _call_callbacks
+    self._new_widget_state.call_callback(wid)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 260, in call_callback
+    callback(*args, **kwargs)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 189, in goals_click_button
+    client.beta.threads.messages.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/messages/messages.py", line 82, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Can't add messages to thread_WGKhXwIRUy7MWau9Vnlg3a2j while a run run_frNHY4SUd4dP4CE40GaGKgxo is active.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2023-11-29 13:40:15.821 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 530, in _run_script
+    self._session_state.on_script_will_rerun(rerun_data.widget_states)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/safe_session_state.py", line 61, in on_script_will_rerun
+    self._state.on_script_will_rerun(latest_widget_states)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 500, in on_script_will_rerun
+    self._call_callbacks()
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 513, in _call_callbacks
+    self._new_widget_state.call_callback(wid)
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/state/session_state.py", line 260, in call_callback
+    callback(*args, **kwargs)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 189, in goals_click_button
+    client.beta.threads.messages.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/messages/messages.py", line 82, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Can't add messages to thread_rawR4mOL7WJIGY6ibPIyiVZs while a run run_MiY6PefnGInWZZcB7t7SZBuB is active.", 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2023-11-29 14:03:30.083 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 95, in <module>
+    thread = client.beta.threads.create()
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/threads.py", line 80, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: skMtFqPF**************************************7kyL. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-11-29 14:03:39.760 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 235, in <module>
+    goals_click_button()
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 189, in goals_click_button
+    client.beta.threads.messages.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/messages/messages.py", line 82, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: skMtFqPF**************************************7kyL. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-11-29 14:07:18.583 Session with id 047b05e9-9b28-4c47-a723-d3d8ab2cd1a8 is already connected! Connecting to a new session.
+2023-11-29 15:29:44.356 Session with id 80e3ea46-7627-444d-804e-98b54ef330a5 is already connected! Connecting to a new session.
+2023-11-29 16:22:05.870 Session with id 02661d2a-e3ba-4de8-b325-9f5987c3ddca is already connected! Connecting to a new session.
+2023-11-30 07:17:34.271 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 97, in <module>
+    thread = client.beta.threads.create()
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/threads.py", line 80, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: Please e****************************************************************************************************************************************************************************************************ses.. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-11-30 07:43:24.767 Session with id 0bc2c756-743e-4d62-a3fa-588d9e0fde6d is already connected! Connecting to a new session.
+2023-12-01 09:59:23.969 Session with id 9a2d5f3c-2104-43bf-bfed-224342b40f8d is already connected! Connecting to a new session.
+2023-12-07 09:43:27.201 Session with id d19402c2-8556-411f-83b1-2db38ce34743 is already connected! Connecting to a new session.
+2023-12-07 09:57:08.521 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 100, in <module>
+    thread = client.beta.threads.create()
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/threads.py", line 80, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: http://3**************************ling. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-12-07 10:31:23.073 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 100, in <module>
+    thread = client.beta.threads.create()
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/threads.py", line 80, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: MtFqPFbv************************************7kyL. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-12-07 10:31:33.295 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 242, in <module>
+    goals_click_button()
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 196, in goals_click_button
+    client.beta.threads.messages.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/messages/messages.py", line 82, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: MtFqPFbv************************************7kyL. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-12-07 11:12:35.754 Session with id ff056adf-e206-41c5-940e-1f3e9ed8ca21 is already connected! Connecting to a new session.
+2023-12-08 05:28:20.517 Session with id bb3b8d31-592d-440a-8308-b1f8986ce0a9 is already connected! Connecting to a new session.
+2023-12-08 05:28:20.696 Session with id bb7f86e2-4013-41a6-9221-f11b528638f1 is already connected! Connecting to a new session.
+2023-12-09 08:46:13.946 Session with id 497925c1-5174-4f8e-b709-17c25391640e is already connected! Connecting to a new session.
+2023-12-09 09:34:53.818 Session with id 6ba90c62-f2db-44ea-98aa-254310c0fe3b is already connected! Connecting to a new session.
+2023-12-13 11:33:16.073 Session with id 1990a5cf-8c50-4aa5-9b55-ad5765346203 is already connected! Connecting to a new session.
+2023-12-13 11:43:05.361 Session with id 5ef18851-8678-42ee-b2a3-03680b1fd0a5 is already connected! Connecting to a new session.
+2023-12-13 11:43:05.482 Session with id e44af902-8aff-46b1-be95-a2227d9dcce4 is already connected! Connecting to a new session.
+2023-12-13 11:44:46.454 Session with id 562911be-da01-4c80-b27c-591a3895572e is already connected! Connecting to a new session.
+2023-12-14 09:19:33.669 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 242, in <module>
+    goals_click_button()
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 212, in goals_click_button
+    run = client.beta.threads.runs.retrieve(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/runs/runs.py", line 132, in retrieve
+    return self._get(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 998, in get
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: MtFqPFbv************************************7kyL. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-12-14 09:19:46.262 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 100, in <module>
+    thread = client.beta.threads.create()
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/threads/threads.py", line 80, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: MtFqPFbv************************************7kyL. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2023-12-18 12:15:39.440 Session with id 0380a27f-2546-4f4f-bbda-dfdbfaf08a61 is already connected! Connecting to a new session.
+2023-12-19 08:23:03.653 Session with id 5ef3de21-4c03-4b93-a474-b58c9d664e72 is already connected! Connecting to a new session.
+2023-12-19 11:41:49.885 Session with id 2a6a6ff4-f155-4fb8-abcb-6e8a8025a136 is already connected! Connecting to a new session.
+2023-12-19 11:42:27.907 Session with id 73da5d31-c8f0-4963-8e5f-1eb5cc077870 is already connected! Connecting to a new session.
+2023-12-19 11:58:12.420 Session with id b24e722f-61f8-4244-9d2d-d405bfaa8018 is already connected! Connecting to a new session.
+2023-12-19 12:03:20.228 Session with id 8b7ede02-e357-47a2-9afe-6f86ef8ae3c9 is already connected! Connecting to a new session.
+2023-12-19 12:34:14.853 Session with id be2ab573-7b18-4092-8626-659d900e8623 is already connected! Connecting to a new session.
+2023-12-19 15:50:44.530 Session with id 289bbc00-ef01-47a0-b957-55fff6c270af is already connected! Connecting to a new session.
+2023-12-20 09:04:32.366 Session with id 3863cbae-0cbd-4fbb-802b-49e1d8c591a3 is already connected! Connecting to a new session.
+2023-12-20 10:47:10.115 Session with id 89900648-b498-47e4-a4bb-eeafd655d9f7 is already connected! Connecting to a new session.
+2023-12-20 11:02:51.363 Session with id 9e0f1e89-04f7-4a34-a8f0-b4a3d3f4541e is already connected! Connecting to a new session.
+2023-12-20 11:07:31.254 Session with id 5b75c6ba-307e-4e2b-b72a-8e6c86e85ed0 is already connected! Connecting to a new session.
+2023-12-20 11:08:45.586 Session with id 2a0bed34-0802-4704-a2c8-bd02970b034a is already connected! Connecting to a new session.
+2023-12-20 11:13:33.106 Session with id f6ff1052-8798-4595-9831-15c6e4ffa148 is already connected! Connecting to a new session.
+2023-12-20 12:04:15.085 Session with id 912835ff-d623-444a-845f-73f842ccb440 is already connected! Connecting to a new session.
+  Stopping...
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+Try "streamlit --help" for help.
+
+Error: No such command "main.py".
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+Try "streamlit --help" for help.
+
+Error: No such command "main.py".
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+Try "streamlit --help" for help.
+
+Error: No such command "main.py".
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+Try "streamlit --help" for help.
+
+Error: No such command "main.py".
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+Try "streamlit --help" for help.
+
+Error: No such command "main.py".
+Usage: streamlit [OPTIONS] COMMAND [ARGS]...
+Try "streamlit --help" for help.
+
+Error: No such command "main.py".
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://10.128.0.3:8501
+  External URL: http://34.30.97.220:8501
+
+2023-12-21 07:25:15.333 Session with id d1492c91-e1e0-4c5e-aab9-3f06a6b82b47 is already connected! Connecting to a new session.
+2023-12-21 09:45:30.452 Session with id 81477759-73e6-4ece-8f8a-aadd99b12533 is already connected! Connecting to a new session.
+2023-12-21 10:10:37.240 Session with id 4d06ab54-cd1d-4dbb-86b8-162c7ec19826 is already connected! Connecting to a new session.
+2023-12-21 12:42:44.287 Session with id 0c27fca4-e277-4a05-b75a-32c0d7b20baf is already connected! Connecting to a new session.
+2023-12-22 21:47:19.401 Session with id 1199d0b6-4e43-433c-bd55-45d8aecb87eb is already connected! Connecting to a new session.
+2023-12-23 11:21:46.859 Session with id 5a472a31-5c5c-4943-a753-67510d90ed5d is already connected! Connecting to a new session.
+2023-12-23 11:23:09.121 Session with id 83982454-bf44-42e2-9eae-a2a4db4750da is already connected! Connecting to a new session.
+2023-12-23 11:43:30.062 Session with id ed0d8a11-3b7b-4cd1-aebe-01c71d6dc29e is already connected! Connecting to a new session.
+2023-12-23 13:49:42.887 Session with id 92982fa5-2ea0-4bcf-975a-7bb8565166c1 is already connected! Connecting to a new session.
+2023-12-23 14:18:45.299 Session with id ec1ab88b-f759-4121-acb3-5a8ec1e03868 is already connected! Connecting to a new session.
+2023-12-23 14:22:33.065 Session with id ff248efe-85e1-4923-af97-87b256f44e93 is already connected! Connecting to a new session.
+2023-12-23 14:25:14.714 Session with id 2e234120-3009-488d-b7e3-6e841a736680 is already connected! Connecting to a new session.
+2023-12-23 14:26:33.043 Session with id 055dd5b3-491f-4f49-9694-fb6feb11a478 is already connected! Connecting to a new session.
+2023-12-25 11:54:36.303 Session with id 62ea39a0-81bb-461a-9361-7e40e4592470 is already connected! Connecting to a new session.
+2023-12-28 08:42:55.770 Session with id d8a8d2d3-69a8-4b47-bb31-fe30f92d928b is already connected! Connecting to a new session.
+2024-01-08 09:37:42.965 Session with id a383b793-027d-49b3-8908-49a62c9fbf5d is already connected! Connecting to a new session.
+2024-01-08 10:01:17.139 Session with id 5db61845-c11a-42c2-a758-a11ad498bdb1 is already connected! Connecting to a new session.
+2024-01-08 10:45:08.475 Session with id 99f6193a-0258-4d45-98e0-2011151b1647 is already connected! Connecting to a new session.
+2024-01-08 10:51:58.973 Session with id 65fb72bd-85a6-411a-824f-138891907321 is already connected! Connecting to a new session.
+2024-01-08 10:55:36.677 Session with id d8d42719-21bd-42d3-b9b8-7751fcb55eae is already connected! Connecting to a new session.
+2024-01-08 10:57:15.730 Session with id 2c55d810-e5e2-45f4-b05d-fa6adef89ea1 is already connected! Connecting to a new session.
+2024-01-08 10:58:34.107 Session with id 0b37596c-9685-42e5-815d-e2cbe3be6719 is already connected! Connecting to a new session.
+2024-01-08 11:08:30.515 Session with id ea94cc54-9c85-4947-a49f-f5a73d487d62 is already connected! Connecting to a new session.
+2024-01-08 11:09:05.485 Session with id 0b6f18bb-c5bd-4ea6-907f-6838c8edc3e5 is already connected! Connecting to a new session.
+2024-01-08 11:48:10.059 Session with id dec37412-7750-4e09-9a6a-249327e76e70 is already connected! Connecting to a new session.
+2024-01-08 12:02:26.244 Session with id 504f6675-2e45-463e-8d79-73e38c028693 is already connected! Connecting to a new session.
+2024-01-09 07:47:38.073 Session with id 6e55eabe-9923-4350-896f-594683301bc3 is already connected! Connecting to a new session.
+2024-01-10 14:05:55.753 Session with id 29364e64-1a0e-44ab-a3f5-0daf88fba0e0 is already connected! Connecting to a new session.
+2024-01-11 07:59:00.287 Session with id ddb1f835-7180-4edf-815d-a81a32ac507a is already connected! Connecting to a new session.
+2024-01-11 09:33:56.308 Session with id 0a3db8a3-d0d0-497a-b243-eefbca367ffd is already connected! Connecting to a new session.
+2024-01-12 07:41:20.271 Session with id 0a4b237b-a729-469f-94a5-95bf0c9caae0 is already connected! Connecting to a new session.
+2024-01-17 08:44:10.850 Session with id 57f11228-de95-4ae6-a3ec-a4371d919506 is already connected! Connecting to a new session.
+2024-01-17 08:45:44.273 Session with id 60d38ee6-6176-40c1-a08d-36a81079ee30 is already connected! Connecting to a new session.
+2024-01-17 20:40:08.399 MediaFileHandler: Missing file system/js/core.js
+2024-01-21 02:11:27.813 MediaFileHandler: Missing file .env
+2024-01-22 05:40:24.023 MediaFileHandler: Missing file system/js/core.js
+2024-02-25 16:06:11.293 MediaFileHandler: Missing file wp-includes/wlwmanifest.xml
+2024-03-11 13:37:48.131 MediaFileHandler: Missing file system/js/core.js
+2024-03-21 11:26:34.064 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 74, in <module>
+    assistant_file = client.beta.assistants.files.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/assistants/files.py", line 67, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Failed to index file: Unsupported file file-ZqC93MpoPcINDeGAd0YKlPiQ type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet error_code: unhandled_mimetype', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2024-03-21 12:42:44.787 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 74, in <module>
+    assistant_file = client.beta.assistants.files.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/assistants/files.py", line 67, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Failed to index file: Unsupported file file-rRvFXXiQwlG1XjZTb7TtQ89m type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet error_code: unhandled_mimetype', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2024-03-21 12:42:45.995 Uncaught app exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/streamlit/runtime/scriptrunner/script_runner.py", line 534, in _run_script
+    exec(code, module.__dict__)
+  File "/home/rsa-key-chatgpt/app/DocumentBot/main.py", line 74, in <module>
+    assistant_file = client.beta.assistants.files.create(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/resources/beta/assistants/files.py", line 67, in create
+    return self._post(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 1055, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 834, in request
+    return self._request(
+  File "/home/rsa-key-chatgpt/app/.local/lib/python3.8/site-packages/openai/_base_client.py", line 877, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': 'Failed to index file: Unsupported file file-ITi1nYZ5abctuxRdxqRWWHuO type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet error_code: unhandled_mimetype', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+2024-03-31 18:58:29.843 MediaFileHandler: Missing file system/js/core.js
